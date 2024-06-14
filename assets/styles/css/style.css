@@ -1,0 +1,56 @@
+html {
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-rows: 10vh 640px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#grid {
+  width: 640px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(10, 64px);
+  grid-template-rows: repeat(10, 64px);
+}
+
+.wood {
+  background: url("/assets/img/wood.svg");
+}
+
+.stone {
+  background: url("/assets/img/stone.svg");
+}
+
+.goal {
+  background: url("/assets/img/goal.svg"), url("/assets/img/wood.svg");
+}
+
+.box {
+  background: url("/assets/img/box.svg"), url("/assets/img/wood.svg");
+}
+
+.face {
+  background: url("/assets/img/face.svg"), url("/assets/img/wood.svg");
+}
+
+.back {
+  background-image: url("/assets/img/back.svg"), url("/assets/img/wood.svg");
+}
+
+.left {
+  background-image: url("/assets/img/left.svg"), url("/assets/img/wood.svg");
+}
+
+.right {
+  background-image: url("/assets/img/right.svg"), url("/assets/img/wood.svg");
+}
+
+/*# sourceMappingURL=style.css.map */
